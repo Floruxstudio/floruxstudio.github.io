@@ -408,6 +408,7 @@ section .container {
 /*--------------------------------------------------------------
 # About
 --------------------------------------------------------------*/
+
 .about-me .content h3 {
   font-weight: 700;
   font-size: 26px;
@@ -439,6 +440,25 @@ section .container {
 .about-me .content p:last-child {
   margin-bottom: 0;
 }
+/* Style for the black container */
+.about-me {
+  background-color: #000;
+  color: #fff;
+  padding: 20px;
+  position: relative; /* To position the "x" button */
+}
+
+/* Style for the "x" button */
+.close-button {
+  position: absolute;
+  top: 10px; /* Adjust the top position as needed */
+  right: 10px; /* Adjust the right position as needed */
+  color: #fff;
+  text-decoration: none;
+  font-size: 24px;
+}
+
+
 
 /*--------------------------------------------------------------
 # Counts
@@ -517,7 +537,22 @@ section .container {
   transition: 0.9s;
   background-color: #18d26e;
 }
+/* Add this CSS for the close button */
+.close-button {
+  position: absolute;
+  top: 10px; /* Adjust the top position as needed */
+  right: 10px; /* Adjust the right position as needed */
+  font-size: 24px; /* Adjust the font size as needed */
+  text-decoration: none;
+  color: #ffffff; /* Adjust the color as needed */
+  z-index: 1; /* Ensure the button appears above other content */
+}
 
+/* Style the close button on hover */
+.close-button:hover {
+  color: #ff0000; /* Adjust the hover color as needed */
+  cursor: pointer;
+}
 /*--------------------------------------------------------------
 # Interests
 --------------------------------------------------------------*/
@@ -688,6 +723,20 @@ section .container {
   top: 0;
   background: #18d26e;
   border: 2px solid #18d26e;
+}
+.close-button {
+  position: absolute;
+  top: 10px; /* Adjust the top position as needed */
+  right: 10px; /* Adjust the right position as needed */
+  font-size: 24px; /* Adjust the font size as needed */
+  text-decoration: none;
+  color: #000; /* Adjust the color as needed */
+}
+
+/* Style the close button on hover */
+.close-button:hover {
+  color: #ff0000; /* Adjust the hover color as needed */
+  cursor: pointer;
 }
 
 /*--------------------------------------------------------------
@@ -927,6 +976,20 @@ section .container {
   bottom: 15px;
   right: 15px;
 }
+.close-button {
+  position: absolute;
+  top: 10px; /* Adjust the top position as needed */
+  right: 10px; /* Adjust the right position as needed */
+  font-size: 24px; /* Adjust the font size as needed */
+  text-decoration: none;
+  color: #000; /* Adjust the color as needed */
+}
+
+/* Style the close button on hover */
+.close-button:hover {
+  color: #ff0000; /* Adjust the hover color as needed */
+  cursor: pointer;
+}
 
 /*--------------------------------------------------------------
 # Portfolio Details
@@ -1145,6 +1208,20 @@ section .container {
 
 .contact .php-email-form button[type=submit]:hover {
   background: #15bb62;
+}
+.close-button {
+  position: absolute;
+  top: 10px; /* Adjust the top position as needed */
+  right: 10px; /* Adjust the right position as needed */
+  font-size: 24px; /* Adjust the font size as needed */
+  text-decoration: none;
+  color: #000; /* Adjust the color as needed */
+}
+
+/* Style the close button on hover */
+.close-button:hover {
+  color: #ff0000; /* Adjust the hover color as needed */
+  cursor: pointer;
 }
 
 @keyframes animate-loading {
