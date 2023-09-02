@@ -5,7 +5,7 @@
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-  <title>Personal Bootstrap Template</title>
+  <title>Florux</title>
   <meta content="" name="description">
   <meta content="" name="keywords">
 
@@ -78,19 +78,19 @@
   <section id="about" class="about">
 
     <!-- ======= About Me ======= -->
-    <div class="about-me container">
+   <div class="about-me container">
 
-      <div class="section-title">
-        <h2>About</h2>
-        <p>Meet me here</p>
+  <div class="section-title d-flex justify-content-between">
+    <div>
+      <h2>About</h2>
+      <p>Meet me here</p>
+    </div>
+    <!-- Close Button -->
+    <a href="index.html" class="close-button" style="font-size: 40px;">&times;</a>
+  </div>
 
-        <!-- Close Button -->
-<a href="index.html" class="close-button" style="font-size: 40px;">&times;</a>
-      
-</div>
+  <div class="row">
 
-<div class="row">
-  <!-- ... rest of your content ... -->
       <div class="row">
         <div class="col-lg-4" data-aos="fade-right">
           <img src="assets/img/portfolio/Agaprofile.jpeg" class="img-fluid" alt="">
@@ -123,8 +123,7 @@
             <!-- Officiis eligendi itaque labore et dolorum mollitia officiis optio vero. Quisquam sunt adipisci omnis et ut. Nulla accusantium dolor incidunt officia tempore. Et eius omnis.
             Cupiditate ut dicta maxime officiis quidem quia. Sed et consectetur qui quia repellendus itaque neque. Aliquid amet quidem ut quaerat cupiditate. Ab et eum qui repellendus omnis culpa magni laudantium dolores.
           </p> -->
-      <!-- Move the "x" button here -->
-      <a href="index.html" class="close-button">&times;</a>
+  
 </div>
     </div><!-- End About Me -->
 
@@ -175,6 +174,7 @@
       <div class="section-title">
         <h2>Skills</h2>
       </div>
+  
 
       <div class="row skills-content">
 
@@ -404,17 +404,17 @@
   </section><!-- End About Section -->
 
   <!-- ======= Resume Section ======= -->
-  <section id="resume" class="resume">
-    <div class="container">
+ <section id="resume" class="resume">
+  <div class="container">
 
-      <div class="section-title">
+    <div class="section-title d-flex justify-content-between">
+      <div>
         <h2>Resume</h2>
         <p>Check My Resume</p>
       </div>
-         <!-- Close Button -->
-<a href="index.html" class="close-button">&times;</a>
-<div class="row">
-  <!-- ... rest of your content ... -->
+      <!-- Close Button -->
+      <a href="index.html" class="close-button" style="font-size: 40px;">&times;</a>
+    </div>
 
       <div class="row">
         <div class="col-lg-6">
@@ -490,19 +490,20 @@
   </section><!-- End Resume Section -->
 
   <!-- ======= Skills Section ======= -->
-  <section id="skills" class="skills">
-    <div class="container">
+ <section id="skills" class="skills">
+  <div class="container">
 
-      <div class="section-title">
+    <div class="section-title d-flex justify-content-between">
+      <div>
         <h2>Skills</h2>
         <p>My Skills</p>
+      </div>
       <!-- Close Button -->
-<a href="index.html" class="close-button">&times;</a>
-<div class="row">
-  <!-- ... rest of your content ... -->
+      <a href="index.html" class="close-button" style="font-size: 40px;">&times;</a>
+    </div>
 </div>
-</div>
-      <div class="row">
+      <div class="container">
+        <div class="row">
         <div class="col-lg-4 col-md-6 d-flex align-items-stretch">
           <div class="icon-box">
             <!-- <div class="icon"><i class="bx bxl-dribbble"></i></div> -->
@@ -559,29 +560,31 @@
   <!-- ======= Portfolio Section ======= -->
   <section id="portfolio" class="portfolio">
     <div class="container">
-
-      <div class="section-title">
-        <h2>Portfolio</h2>
-        <p>My Works</p>
+      <div class="section-title d-flex justify-content-between">
+        <div>
+          <h2>Portfolio</h2>
+          <p>My Works</p>
+        </div>
+        <!-- Close Button -->
+        <a href="index.html" class="close-button" style="font-size: 40px;">&times;</a>
       </div>
-  <!-- Close Button -->
-  <a href="index.html" class="close-button">&times;</a>
-  <div class="container">
-    <!-- ... rest of your content ... -->
+
       <div class="row">
+        <!-- Portfolio Filters -->
         <div class="col-lg-12 d-flex justify-content-center">
           <ul id="portfolio-flters">
             <li data-filter="*" class="filter-active">All</li>
             <li data-filter=".filter-app">App</li>
-            <!-- <li data-filter=".filter-card">Card</li> -->
             <li data-filter=".filter-web">Web</li>
           </ul>
         </div>
       </div>
-
+  
+      <!-- Portfolio Items -->
       <div class="row portfolio-container">
-
-        <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+      
+        <!-- Portfolio Item 1 -->
+        <div class="col-lg-4 col-md-4 col-sm-6 portfolio-item filter-app">
           <div class="portfolio-wrap">
             <img src="assets/img/ReadmeLogo.png" class="img-fluid" alt="">
             <div class="portfolio-info">
@@ -594,22 +597,9 @@
             </div>
           </div>
         </div>
-
-        <!-- <div class="col-lg-4 col-md-6 portfolio-item filter-web">
-          <div class="portfolio-wrap">
-            <img src="assets/img/portfolio/portfolio-2.jpg" class="img-fluid" alt="">
-            <div class="portfolio-info">
-              <h4>Web 3</h4>
-              <p>Web</p>
-              <div class="portfolio-links">
-                <a href="assets/img/portfolio/portfolio-2.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Web 3"><i class="bx bx-plus"></i></a>
-                <a href="portfolio-details.html" data-gallery="portfolioDetailsGallery" data-glightbox="type: external" class="portfolio-details-lightbox" title="Portfolio Details"><i class="bx bx-link"></i></a>
-              </div>
-            </div>
-          </div>
-        </div> -->
-
-        <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+  
+        <!-- Portfolio Item 2 -->
+        <div class="col-lg-4 col-md-4 col-sm-6 portfolio-item filter-app">
           <div class="portfolio-wrap">
             <img src="assets/img/PlantasLogo.png" class="img-fluid" alt="">
             <div class="portfolio-info">
@@ -727,15 +717,16 @@
   <!-- ======= Contact Section ======= -->
   <section id="contact" class="contact">
     <div class="container">
+  
+      <div class="section-title d-flex justify-content-between">
+        <div>
+          <h2>Contact</h2>
+          <p>Contact Me</p>
+        </div>
+        <!-- Close Button -->
+        <a href="index.html" class="close-button" style="font-size: 40px;">&times;</a>
 
-      <div class="section-title">
-        <h2>Contact</h2>
-        <p>Contact Me</p>
       </div>
-  <!-- Close Button -->
-  <a href="index.html" class="close-button">&times;</a>
-  <div class="row">
-    <!-- ... rest of your content ... -->
       <div class="row mt-2">
 
         <div class="col-md-6 d-flex align-items-stretch">
